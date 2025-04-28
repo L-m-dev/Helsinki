@@ -25,7 +25,7 @@ deactivate server
 
 browser-->>server GET /exampleapp/data.json
 activate server
-server-->> browser 200 OK - data.json 
+server-->>browser 200 OK - data.json 
 deactivate server
 ```
 
